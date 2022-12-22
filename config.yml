@@ -1,0 +1,58 @@
+baseURL: https://fmgornick.github.io/
+languageCode: en-us
+title: fletcher
+theme: PaperMod
+
+params:
+  title: "fletcher gornick"
+  description: "static site for fletcher gornick"
+  keywords: [ "blog", Portfolio" ]
+  author: "Fletcher Gornick"
+  defaultTheme: "auto"
+
+  assets:
+    favicon: "/icon/favicon.ico"
+    favicon16x16: "/icon/favicon-16x16.png"
+    favicon32x32: "/icon/favicon-32x32.png"
+    apple_touch_icon:  "/icon/apple-touch-icon.png"
+
+  profileMode:
+    enabled: true
+    title: "welcome to my website!"
+    subtitle: "i’m a computer science undergraduate student at the university of minnesota with a particular interest in programming languages."
+    imageUrl: "/profile.png"
+    imageTitle: "profile"
+    imageWidth: 200
+    imageHeight: 200
+
+    buttons:
+      - name: resume
+        url: "/resume"
+
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/fmgornick"
+    - name: "email"
+      url: "mailto:fletchermgornick@gmail.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/fletcher-gornick/"
+
+menu:
+  main:
+    - identifier: search
+      name: search
+      url: /search
+      weight: 10
+    - identifier: archives
+      name: archives
+      url: /archives
+      weight: 20
+    - identifier: contact
+      name: contact
+      url: /contact
+      weight: 30
+    - identifier: tags
+      name: tags
+      url: /tags
+      weight: 40
+
