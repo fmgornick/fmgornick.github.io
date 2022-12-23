@@ -9,6 +9,7 @@ params:
   keywords: [ "blog", Portfolio" ]
   author: "Fletcher Gornick"
   defaultTheme: "auto"
+  disableThemeToggle: false
 
   assets:
     favicon: "/icon/favicon.ico"
