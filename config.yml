@@ -4,43 +4,45 @@ title: fletcher
 theme: PaperMod
 
 params:
-  title: "fletcher gornick"
-  description: "static site for fletcher gornick"
-  keywords: [ "blog", Portfolio" ]
-  author: "Fletcher Gornick"
-  defaultTheme: "auto"
+  defaultTheme: auto
   disableThemeToggle: false
+  title: fletcher gornick
+  description: static site for fletcher gornick
+  author: Fletcher Gornick
+
+  ShowRssButtonInSectionTermList: true
+  ShowFullTextinRSS: true
 
   assets:
-    favicon: "/icon/favicon.ico"
-    favicon16x16: "/icon/favicon-16x16.png"
-    favicon32x32: "/icon/favicon-32x32.png"
-    apple_touch_icon:  "/icon/apple-touch-icon.png"
+    favicon: /icon/favicon.ico
+    favicon16x16: /icon/favicon-16x16.png
+    favicon32x32: /icon/favicon-32x32.png
+    apple_touch_icon:  /icon/apple-touch-icon.png
 
   profileMode:
     enabled: true
-    title: "fletcher gornick's homepage"
+    title: fletcher gornick's homepage
     subtitle: |
       i’m a computer science undergrad at UMNTC 
       with a particular interest in algorithm design.
-    imageUrl: "/profile.png"
-    imageTitle: "profile"
+    imageUrl: /profile.png
+    imageTitle: profile
     imageWidth: 200
     imageHeight: 200
 
     buttons:
-      - name: resume
-        url: "/resume"
       - name: archives
-        url: "/archives"
+        url: /archives
+      - name: resumé
+        url: /resume
 
   socialIcons:
-    - name: "github"
-      url: "https://github.com/fmgornick"
-    - name: "email"
-      url: "mailto:fletchermgornick@gmail.com"
-    - name: "linkedin"
-      url: "https://www.linkedin.com/in/fletcher-gornick/"
+    - name: github
+      url: https://github.com/fmgornick
+    - name: email
+      url: mailto:fletchermgornick@gmail.com
+    - name: linkedin
+      url: https://linkedin.com/in/fletcher-gornick
 
 menu:
   main:
@@ -62,4 +64,4 @@ menu:
       weight: 40
 
 outputs:
-  home: [ "HTML", "RSS", "JSON" ]
+  home: [ HTML, RSS, JSON ]

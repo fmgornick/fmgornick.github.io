@@ -1,5 +1,5 @@
 ---
-title: "resume"
+title: "resumé"
 date: 2022-12-22
 tags: [ "LaTeX" ]
 ---
