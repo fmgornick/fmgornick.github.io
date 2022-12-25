@@ -69,7 +69,7 @@
   window.onload = function () {
     
     
-    var url = "https:\/\/fletcher.gornick.dev\/" + '.\/resume.pdf';
+    var url = "https:\/\/fletcher.gornick.dev\/" + '\/resume\/resume.pdf';
 
     var hidePaginator = "" === "true";
     var hideLoader = "" === "true";
