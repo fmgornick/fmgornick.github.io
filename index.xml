@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>fletcher</title><link>https://fletcher.gornick.dev/</link><description>Recent content on fletcher</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 22 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://fletcher.gornick.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>resumé</title><link>https://fletcher.gornick.dev/resume/</link><pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate><guid>https://fletcher.gornick.dev/resume/</guid><description> Previous Next &amp;nbsp; &amp;nbsp; Page: /</description><content:encoded><![CDATA[<script src='/js/pdf-js/build/pdf.js'></script>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>fletcher</title><link>https://fletcher.gornick.dev/</link><description>Recent content on fletcher</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 22 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://fletcher.gornick.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>resumé</title><link>https://fletcher.gornick.dev/resume/</link><pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate><guid>https://fletcher.gornick.dev/resume/</guid><description> &amp;larr; &amp;nbsp; &amp;rarr; &amp;nbsp; &amp;nbsp; page: /</description><content:encoded><![CDATA[<script src='/js/pdf-js/build/pdf.js'></script>
 <style>
   #the-canvas {
     border: 1px solid black;
@@ -48,10 +48,15 @@
 </style>
 
 <div id="paginator">
-  <button id="prev">Previous</button>
-  <button id="next">Next</button>
+  <button id="prev">
+    <font size="+2">&larr;</font>
+  </button>
+  &nbsp;
+  <button id="next">
+    <font size="+2">&rarr;</font>
+  </button>
   &nbsp; &nbsp;
-  <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
+  <span>page: <span id="page_num"></span> / <span id="page_count"></span></span>
 </div>
 <div id="embed-pdf-container">
   <div id="loadingWrapper">
@@ -199,4 +204,4 @@
 
 </script>
 
-]]></content:encoded></item><item><title>dynamic proxy</title><link>https://fletcher.gornick.dev/projects/dynamic-proxy/</link><pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate><guid>https://fletcher.gornick.dev/projects/dynamic-proxy/</guid><description>tbc</description><content:encoded>&lt;p>tbc&lt;/p></content:encoded></item><item><title>code mutator</title><link>https://fletcher.gornick.dev/projects/code-mutator/</link><pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate><guid>https://fletcher.gornick.dev/projects/code-mutator/</guid><description>tbc</description><content:encoded>&lt;p>tbc&lt;/p></content:encoded></item><item><title>drone search &amp; rescue simulation</title><link>https://fletcher.gornick.dev/projects/drone-simulation/</link><pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate><guid>https://fletcher.gornick.dev/projects/drone-simulation/</guid><description>tbc</description><content:encoded>&lt;p>tbc&lt;/p></content:encoded></item><item><title>image processing software</title><link>https://fletcher.gornick.dev/projects/image-processor/</link><pubDate>Sat, 30 Oct 2021 00:00:00 +0000</pubDate><guid>https://fletcher.gornick.dev/projects/image-processor/</guid><description>tbc</description><content:encoded>&lt;p>tbc&lt;/p></content:encoded></item><item><title>contact</title><link>https://fletcher.gornick.dev/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fletcher.gornick.dev/contact/</guid><description>feel free to reach out to me at fletchermgornick@gmail.com.</description><content:encoded>&lt;p>feel free to reach out to me at &lt;a href="mailto:fletchermgornick@gmail.com">fletchermgornick@gmail.com&lt;/a>.&lt;/p></content:encoded></item></channel></rss>
+]]></content:encoded></item><item><title>dynamic proxy</title><link>https://fletcher.gornick.dev/projects/dynamic-proxy/</link><pubDate>Mon, 06 Jun 2022 00:00:00 +0000</pubDate><guid>https://fletcher.gornick.dev/projects/dynamic-proxy/</guid><description>tbc</description><content:encoded>&lt;p>tbc&lt;/p></content:encoded></item><item><title>code mutator</title><link>https://fletcher.gornick.dev/projects/code-mutator/</link><pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate><guid>https://fletcher.gornick.dev/projects/code-mutator/</guid><description>tbc</description><content:encoded>&lt;p>tbc&lt;/p></content:encoded></item><item><title>drone search &amp; rescue simulation</title><link>https://fletcher.gornick.dev/projects/drone-simulation/</link><pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate><guid>https://fletcher.gornick.dev/projects/drone-simulation/</guid><description>tbc</description><content:encoded>&lt;p>tbc&lt;/p></content:encoded></item><item><title>image processing software</title><link>https://fletcher.gornick.dev/projects/image-processor/</link><pubDate>Sat, 30 Oct 2021 00:00:00 +0000</pubDate><guid>https://fletcher.gornick.dev/projects/image-processor/</guid><description>tbc</description><content:encoded>&lt;p>tbc&lt;/p></content:encoded></item></channel></rss>

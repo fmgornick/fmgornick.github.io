@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>LaTeX on fletcher</title><link>https://fletcher.gornick.dev/tags/latex/</link><description>Recent content in LaTeX on fletcher</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 22 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://fletcher.gornick.dev/tags/latex/index.xml" rel="self" type="application/rss+xml"/><item><title>resumé</title><link>https://fletcher.gornick.dev/resume/</link><pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate><guid>https://fletcher.gornick.dev/resume/</guid><description> Previous Next &amp;nbsp; &amp;nbsp; Page: /</description><content:encoded><![CDATA[<script src='/js/pdf-js/build/pdf.js'></script>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>LaTeX on fletcher</title><link>https://fletcher.gornick.dev/tags/latex/</link><description>Recent content in LaTeX on fletcher</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 22 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://fletcher.gornick.dev/tags/latex/index.xml" rel="self" type="application/rss+xml"/><item><title>resumé</title><link>https://fletcher.gornick.dev/resume/</link><pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate><guid>https://fletcher.gornick.dev/resume/</guid><description> &amp;larr; &amp;nbsp; &amp;rarr; &amp;nbsp; &amp;nbsp; page: /</description><content:encoded><![CDATA[<script src='/js/pdf-js/build/pdf.js'></script>
 <style>
   #the-canvas {
     border: 1px solid black;
@@ -48,10 +48,15 @@
 </style>
 
 <div id="paginator">
-  <button id="prev">Previous</button>
-  <button id="next">Next</button>
+  <button id="prev">
+    <font size="+2">&larr;</font>
+  </button>
+  &nbsp;
+  <button id="next">
+    <font size="+2">&rarr;</font>
+  </button>
   &nbsp; &nbsp;
-  <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
+  <span>page: <span id="page_num"></span> / <span id="page_count"></span></span>
 </div>
 <div id="embed-pdf-container">
   <div id="loadingWrapper">
