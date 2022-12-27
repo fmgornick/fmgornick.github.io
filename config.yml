@@ -21,10 +21,9 @@ params:
 
   profileMode:
     enabled: true
-    title: fletcher gornick's homepage
+    title: Fletcher Gornick
     subtitle: |
-      i’m a computer science undergrad at UMNTC 
-      with a particular interest in algorithm design.
+      a place for me to post my stuff
     imageUrl: /profile.png
     imageTitle: profile
     imageWidth: 200
@@ -33,7 +32,7 @@ params:
     buttons:
       - name: archives
         url: /archives
-      - name: resumé
+      - name: résumé
         url: /resume
 
   socialIcons:
@@ -54,9 +53,9 @@ menu:
       name: projects
       url: /projects
       weight: 20
-    - identifier: contact
-      name: contact
-      url: /contact
+    - identifier: about
+      name: about
+      url: /about
       weight: 30
     - identifier: tags
       name: tags
