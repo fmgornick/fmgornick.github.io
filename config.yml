@@ -39,7 +39,7 @@ params:
     - name: github
       url: https://github.com/fmgornick
     - name: email
-      url: mailto:fletchermgornick@gmail.com
+      url: mailto:fletcher@gornick.dev
     - name: linkedin
       url: https://linkedin.com/in/fletcher-gornick
 
