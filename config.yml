@@ -17,7 +17,7 @@ params:
     favicon: /icon/favicon.ico
     favicon16x16: /icon/favicon-16x16.png
     favicon32x32: /icon/favicon-32x32.png
-    apple_touch_icon:  /icon/apple-touch-icon.png
+    apple_touch_icon: /icon/apple-icon.png
 
   profileMode:
     enabled: true
@@ -63,4 +63,4 @@ menu:
       weight: 40
 
 outputs:
-  home: [ HTML, RSS, JSON ]
+  home: [HTML, RSS, JSON]
