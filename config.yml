@@ -1,7 +1,8 @@
 baseURL: https://fletcher.gornick.dev/
 languageCode: en-us
 title: home
-theme: PaperMod
+theme: [PaperMod, hugo-embed-pdf-shortcode]
+enableInlineShortcodes: true
 
 params:
   defaultTheme: auto
@@ -22,8 +23,7 @@ params:
   profileMode:
     enabled: true
     title: Fletcher Gornick
-    subtitle: |
-      a place for me to post my stuff
+    subtitle: a place for me to post my stuff
     imageUrl: /profile.png
     imageTitle: profile
     imageWidth: 200
@@ -45,21 +45,21 @@ params:
 
 menu:
   main:
-    - identifier: search
-      name: search
-      url: /search
+    - identifier: about
+      name: about
+      url: /about
       weight: 10
     - identifier: projects
       name: projects
       url: /projects
       weight: 20
-    - identifier: about
-      name: about
-      url: /about
-      weight: 30
     - identifier: tags
       name: tags
       url: /tags
+      weight: 30
+    - identifier: search
+      name: search
+      url: /search
       weight: 40
 
 outputs:
