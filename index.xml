@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>home</title><link>https://fletcher.gornick.dev/</link><description>Recent content on home</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 22 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://fletcher.gornick.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>bsp tree demo</title><link>https://fletcher.gornick.dev/projects/bsp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://fletcher.gornick.dev/projects/bsp/</guid><description> bsp tree demo Below is an applet to visualize the process of constructing a binary space partition tree (BSP tree for short), as well as a demonstration of real-time CPU rendering of a scene. (source code can be found here.)</description><content:encoded><![CDATA[<html lang="en-us">
   <head>
+    <style>
+        body { overflow: hidden; }
+        :root { 
+            --main-width: 90%; 
+            --nav-width: 100%;
+            margin-left: 5%; 
+        }
+        canvas.emscripten { border: 0px none; width: 100%; }
+    </style>
+
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
-    <title>bsp tree demo</title>
     <meta name="title" content="bsp tree demo">
     <meta name="description" content="CSCI 8442 BSP Tree Visual Demonstration">
     <meta name="viewport" content="width=device-width">
+    <title>bsp tree demo</title>
 
-    <style>
-        body { margin: 0px; overflow: hidden; }
-
-        .emscripten { padding-right: 0; margin-left: auto; margin-right: auto; display: block; }
-        .desc { transform: translateX(-25%); width: 200%; }
-        canvas.emscripten { border: 0px none; width: 100%; transform: translateX(-25%); width: 200%; align: center; }
-        div.emscripten { text-align: center; }
-        div.emscripten_border { border: 1px solid black; }
-    </style>
     <script type='text/javascript' src="https://cdn.jsdelivr.net/gh/eligrey/FileSaver.js/dist/FileSaver.min.js"> </script>
     <script type='text/javascript'>
         function saveFileFromMEMFSToDisk(memoryFSname, localFSname)     // This can be called by C/C++ code
@@ -35,13 +35,12 @@
     </script>
     </head>
     <body>
-        <p class=desc>
-            Below is an applet to visualize the process of constructing a
-            binary space partition tree (BSP tree for short), as well as a
-            demonstration of real-time CPU rendering of a scene.
-            (source code can be found <a href="https://github.com/fmgornick/bsp.git">here</a>.)
+        <p>
+            Below is an applet to visualize the process of constructing a binary space partition 
+            tree (BSP tree for short), as well as a demonstration of real-time CPU rendering of a 
+            scene. (source code can be found <a href="https://github.com/fmgornick/bsp.git">here</a>.)
         </p>
-        <canvas class=emscripten id=canvas oncontextmenu=event.preventDefault() tabindex=-1></canvas>
+        <canvas class=emscripten id=canvas tabindex=-1></canvas>
         <p id="output" />
         <script>
             var Module = {
